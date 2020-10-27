@@ -1,6 +1,7 @@
 <template>
+  <!--      :default-active="'/index'"-->
   <el-menu
-      :default-active="'/index'"
+      :default-active="$route.path"
       router
       mode="horizontal"
       background-color="white"
